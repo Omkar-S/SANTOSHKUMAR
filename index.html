@@ -22,10 +22,10 @@
     </Header>
     <div class="body-content">
         <h1 class="order">DELIVERY ORDER</h1>
-        <form action="">
+        <form action="" method="">
             <div class="start-date">
             <label for="">Date:</label>
-            <input class="input-box" type="date" style="width: 20%;">
+            <input class="input-box" type="date" style="width: 20%;" name="St-Date">
             </div>
             <div class="start-number">
             <label for="">No:</label>
@@ -38,7 +38,7 @@
             <label for="">The Managing Director</label>
             </div>
             <br>
-            <input class="input-line" type="text" style="width: 60%;"><label for="">Saha.sakhar Karkhana</label>
+            <input class="input-line" type="text" style="width: 60%;"><label for=""><span>Saha.sakhar Karkhana</span> </label>
             <br>
             <div class="In-line">
             <label for="">Grade</label><input class="input-line" type="text" name="" id="" style="width: 15%;">
@@ -66,7 +66,7 @@
             <label for="">UTR No</label><input class="input-box" type="number" style="width: 35%;">
             </div>
             <h4>Details of Receiver (Billed to)</h4>
-            <label for="">Party Name</label><input class="input-line" type="text" style="width: 60%;">
+            <label for=""><span> Party Name </span></label><input class="input-line" type="text" style="width: 60%;">
             <br>
             <input class="input-line" type="text" style="width: 80%;">
             <br>
@@ -77,23 +77,10 @@
             <div class="gstin">
             <label id="gstin">GSTIN</label><input class="input-box" style="width: 70%;" type="number" maxlength="12">
             </div>
-            <h4>Details of Cosignee (Shipped to/ Transport Details)</h4>
-            <label for="">Party Name</label><input class="input-line" type="text" style="width: 30%;">
-            <br>
-            <input class="input-line" type="text" style="width: 80%;">
-            <br>
-            <label for="">Place</label><input class="input-line" type="text" style="width: 20%;">
-            <label for="">K.M.</label><input class="input-line" type="text" style="width: 20%;">
-            <label for="">State</label><input class="input-line" type="text" style="width: 20%;">
-            <br>
-            <div class="gstin">
-            <label for="">GSTIN</label><input class="input-box" style="width: 70%;" type="number" maxlength="12">
-            </div>
             <p class="foot-line">For<strong> - S. Santoshkumar & Company</strong></p>
             <hr>
             <p class="note-line"><strong>Remark:</strong> Please confirm the draft/ RTGS/ Credited to your A/c at you risk.</p>
-            
-            <input class="btn" type="submit" value="Print" onclick="window.print()" >
+            <input class="btn" type="button" value="Submit" onclick="window.print()" >
         
         </form>
 
@@ -101,3 +88,4 @@
     </div>
 </body>
 </html>
+<!-- onclick="window.print()" -->
