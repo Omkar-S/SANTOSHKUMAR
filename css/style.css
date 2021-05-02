@@ -1,0 +1,116 @@
+html{
+    color: #7c2020;
+}
+h1{
+    background: #7c2020;
+    color: white;
+    text-align: center;
+}
+h3{
+    color: #7c2020;
+    text-align: center;
+}
+h2{
+    color: #7c2020;
+    text-align: center;
+}
+hr{
+    border-color: #7c2020;
+}
+form{
+    text-align: center;
+    font-size: 20px;
+}
+
+/*********** By class ************/
+.header{
+    border: 5px solid #7c2020;
+    border-radius: 15px;
+}
+.logo-img{
+    width: 40px;
+}
+.right-corner{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    font-size: 12px;
+    padding-right: 2%;
+}
+.starter{
+    text-align: center;
+    color: #7c2020;
+}
+.body-content{
+    border: 5px solid #7c2020;
+    border-radius: 15px;
+
+}
+.order{
+    width: 30%;
+    text-align: center;
+    margin: auto auto;
+    font-size: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.input-line{
+    border: none;
+    border-bottom:2px solid #7c2020;
+    margin: 10px auto;
+}
+.input-box{
+    margin-left: 5px;
+    border: 2px solid #7c2020;
+    border-radius: 5px;
+}
+.foot-line{
+    position: relative;
+    margin-left:50%;
+    font-size: 15px;
+}
+.start-date{
+    font-size: 20px;
+    text-align: right;
+    padding-right: 5%;
+    padding-bottom: 5px;
+}
+.start-number{
+    font-size: 20px;
+    text-align: right;
+    padding-right: 5%;
+}
+.TO{
+    text-align: left;
+    padding-left: 5%;
+    font-size: 20px;
+}
+.In-line{
+    display:inline;
+    margin: 10px auto;
+}
+.Dot-Line{
+    display: inline;
+    margin: auto;
+    margin: 10px auto;
+}
+.mid{
+    margin: 10px auto;
+}
+.gstin{
+    text-align: left;
+    padding-left: 10%;
+    padding-top: 10px;
+}
+.btn{
+    position: relative;
+    left: 200px;
+    margin-bottom: 10px;
+    background: #7c2020;
+    color: white;
+    border-radius: 5px;
+    padding: 1px 10px;
+}
+
+
+/***************** id ******************/
