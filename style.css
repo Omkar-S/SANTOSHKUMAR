@@ -90,7 +90,11 @@ input.right-corner{
     font-weight: 500;
 
 }
-
+.btn{
+    border-width: 2px;
+    border-color: #7c2020;
+    color: #7c2020;
+}
 /* ***** By Ids ***** */
 
 /* margin-left:50%;
