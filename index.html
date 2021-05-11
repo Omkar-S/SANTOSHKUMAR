@@ -4,88 +4,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>Santosh Kumar & Company</title>
-    
 </head>
 <body>
     <Header class="header"> 
         <p class="right-corner">Subject to Kopargaon Jurisdiction</p>
-        <p class="starter">|| &#2384; || <br> ॥ श्री वीतरागाय नमः ॥</p>
-        <h1> <img class="logo-img" src="images/minilogo.ico" alt="Logo"> M/S. SANTOSHKUMAR & COMPANY</h1>
+        <p>|| &#2384; || <br> ॥ श्री वीतरागाय नमः ॥</p>
+        <h1> <img class="logo-img" src="minilogo.ico" alt="Logo"> M/S. SANTOSHKUMAR & COMPANY</h1>
         <h2>SUGAR BROKER & COMMISSION AGENT </h2> 
         <h3>Gandhi chowk, Kopargaon - 423601, Dist. Ahmednager(Maharashtra)</h3>
-        <hr>
+        <p class="hr"></p>
         <h3>Off.02423-224008, Mob.9422223008/3067, 9325921008, 8308830888</h3>
         <h3>&#x2709; Email : santoshkumarco999@gmail.com</h3>
     </Header>
     <div class="body-content">
         <h1 class="order">DELIVERY ORDER</h1>
-        <form action="" method="">
-            <div class="start-date">
-            <label for="">Date:</label>
-            <input class="input-box" type="date" style="width: 20%;" name="St-Date">
-            </div>
-            <div class="start-number">
-            <label for="">No:</label>
-            <input class="input-box" type="number" style="width: 20%;">
-            </div>
-            <br>
-            <div class="TO">
-            <label for="">To</label>
-            <br>
-            <label for="">The Managing Director</label>
-            </div>
-            <br>
-            <input class="input-line" type="text" style="width: 60%;"><label for=""><span>Saha.sakhar Karkhana</span> </label>
-            <br>
-            <div class="In-line">
-            <label for="">Grade</label><input class="input-line" type="text" name="" id="" style="width: 15%;">
-            <label for="">Bag</label><input class="input-line" type="text" name="" id="" style="width: 15%;">
-            <label for="">Rate</label><input class="input-line" type="text" name="" id="" style="width: 15%;">
-            </div>
-            <br>
-            <div class="Dot-Line">
-            <input class="input-line" type="text" name="" id="" style="width: 15%;">
-            <input class="input-line" type="text" name="" id="" style="width: 15%;">
-            <input class="input-line" type="text" name="" id="" style="width: 15%;">
-            </div>
-            <br>
-            <div class="mid">
-            <label for="">Truck Number</label><input class="input-box" type="text" style="width: 40%;">
-            <br>
-            <p></p>
-            <label for="">Tender Date</label><input class="input-box" type="date" >
-            <br>
-            <p></p>
-            <label for="">UTR Date</label><input class="input-box" type="date" style="width: 20%;">
-            <label for="">Rs.</label><input class="input-line" type="text" style="width: 20%;">
-            <br>
-            <p></p>
-            <label for="">UTR No</label><input class="input-box" type="number" style="width: 35%;">
-            </div>
-            <h4>Details of Receiver (Billed to)</h4>
-            <label for=""><span> Party Name </span></label><input class="input-line" type="text" style="width: 60%;">
-            <br>
-            <input class="input-line" type="text" style="width: 80%;">
-            <br>
-            <label for="">Place</label><input class="input-line" type="text" style="width: 20%;">
-            <label for="">K.M.</label><input class="input-line" type="text" style="width: 20%;">
-            <label for="">State</label><input class="input-line" type="text" style="width: 20%;">
-            <br>
-            <div class="gstin">
-            <label id="gstin">GSTIN</label><input class="input-box" style="width: 70%;" type="number" maxlength="12">
-            </div>
-            <p class="foot-line">For<strong> - S. Santoshkumar & Company</strong></p>
-            <hr>
-            <p class="note-line"><strong>Remark:</strong> Please confirm the draft/ RTGS/ Credited to your A/c at you risk.</p>
-<!--             <input class="btn" type="submit" value="Submit" > -->
-        
-        </form>
 
+        <form action="">
+            <label class="right-corner" >Date: </label>
+            <input class="right-corner" type="date" name="St-date">
+            <br>
+            <label class="right-corner" >No: </label>
+            <input class="right-corner" type="number" name="St-num">
+            <br>
+            <div class="reciever">
+                <p>To. <br>The Managing Director,</p>
+            </div>
+            <input class="line" type="text" name="St-Line"><label> &nbsp; Saha.sakhar Karkhana</label>
+            <br>
+            <!-- <div class="row">
+            <label class="col-lg-3 col-sm-6">Grade &nbsp;</label><input class="col-lg-3 col-sm-6" type="text" name="Grade">
+            <label class="col-lg-3 col-sm-6">Bags &nbsp;</label><input  class="col-lg-3 col-sm-6" type="text" name="Bag">
+            <label class="col-lg-3 col-sm-6">Rate &nbsp;</label><input  class="col-lg-3 col-sm-6" type="text" name="Rate">
+            </div> -->
+            <label>Grade &nbsp;</label><input  type="text" name="Grade">
+            <label>Bags &nbsp;</label><input   type="text" name="Bag">
+            <label>Rate &nbsp;</label><input   type="text" name="Rate">
+            <br>
+            <input  type="text" name="Grade2">&nbsp;&nbsp;&nbsp;&nbsp;
+            <input  type="text" name="Bag2" >&nbsp;&nbsp;&nbsp;&nbsp;
+            <input  type="text" name="Rate2">
+            <br>
+            <label>Truck Number:&nbsp;</label><input class="input-line" type="text" name="Truck">
+            <label>Tender Date:&nbsp;</label><input class="input-line" type="date" name="TenderDate">
+            <br>
+            <label>UTR Date:&nbsp;&nbsp;</label><input class="input-line" type="date" name="UTR-Date">
+            <label>Rs.&nbsp;&nbsp;</label><input class="input-line" type="text" name="UTR_RS">
+            <br>
+            <label>UTR No:&nbsp;</label><input class="line" type="number"  name="UTR-NO">
+            <br>
+            <label>UTR Date:&nbsp;&nbsp;</label><input class="input-line" type="date" name="UTR-Date2">
+            <label>Rs.&nbsp;&nbsp;</label><input class="input-line" type="text" name="UTR_RS2">
+            <br>
+            <label>UTR No:&nbsp;</label><input class="line" type="number"  name="UTR-NO2">
+            <h2><strong>Details of Receiver (Billed to)</strong></h2>
+            <label>Party Name:&nbsp;</label><input class="line" type="text"  name="party-name">
+            <input style="width: 80%;" type="text"  name="party-name">
+            <br>
+            <label>Place</label><input  type="text"  name="place">
+            <label>K.M.</label><input  type="text" name="Km">
+            <label>State</label><input  type="text" name="State">
+            <br>
+            <label>GSTIN: &nbsp;</label><input class="line"  type="text"  name="GSTIN">
+            <br>
+            <label class="foot-line">- S. Santoshkumar & Company</label>
+            <br>
+            <p class="hr"></p>
+        <p><strong>Remark:</strong> Please confirm the draft/ RTGS/ Credited to your A/c at you risk.</p>
+            <input class="btn" type="submit" value="Submit" >
+        </form>
+        
 
     </div>
+   
+
+    
 </body>
 </html>
-<!-- onclick="window.print()" -->
